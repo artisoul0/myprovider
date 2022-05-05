@@ -1,0 +1,117 @@
+@import url('/mainstyles.css');
+$blue_color : #005FFF;
+.payment{
+    display: flex;
+    border:2px solid #f2f2f2;
+    width: 900px;
+    height: 600px;
+}
+
+.content_payment{
+    flex:1 1 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 125px;
+    padding-bottom: 30px;
+}
+
+.right_side_payment{
+    padding:20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    input{
+        padding:10px;
+        border-radius: 10px;
+        border:2px solid #f2f2f2;
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+.left_side_with_card{
+    background-color: #e2e5e9;
+    width: 40%;
+    position: relative;
+}
+
+.user_card{
+    position: absolute;
+    background-color: #005FFF;
+    color:white;
+    width: 100%;
+    height: 200px;
+    top:30%;
+    border-radius: 10px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card_info_bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.payment_title{
+    font-size: 30px;
+}
+
+.block_input_payment{
+  div{
+      margin-bottom: 10px;
+  }
+
+}
+
+.pay{
+    width: 100px;
+    height: 50px;
+    background-color: $blue_color;
+    border:2px solid #f2f2f2;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:943px) {
+    .content_payment{
+        display: block;
+    }
+    .payment{
+        width: 100%;
+    }
+}
+
+@media (max-width:835px) {
+    .left_side_with_card{
+        display: none;
+    }
+    .payment{
+        width: 500px;
+    }
+    .content_payment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .right_side_payment{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:545px) {
+    .payment{
+        width: 100%
+    }
+    .content_payment{
+        display: block;
+        padding-top: 100px;
+}
+}

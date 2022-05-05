@@ -1,0 +1,131 @@
+@import url("/mainstyles.css");
+.content_4 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.admin_panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.admin_panel_title {
+  font-size: 35px;
+  margin-bottom: 25px; }
+
+.admin_panel_manage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.admin_panel_manage_tariff {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 2px 2px #f2f2f2;
+          box-shadow: 0px 0px 2px 2px #f2f2f2;
+  margin-right: 50px; }
+
+.admin_panel_manage_user {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 2px 2px #f2f2f2;
+          box-shadow: 0px 0px 2px 2px #f2f2f2; }
+
+.icon_manage {
+  width: 70px;
+  height: 70px; }
+
+.btn_manage {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #005FFF;
+  color: white;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  font-size: 20px; }
+  .btn_manage a {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.btn_manage:hover {
+  background-color: #024fd5;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all; }
+
+@media (max-width: 686px) {
+  .admin_panel_manage_tariff {
+    margin-right: 20px; } }
+@media (max-width: 660px) {
+  .admin_panel_manage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .admin_panel_manage_tariff {
+    margin: 0;
+    margin-bottom: 20px; }
+
+  .admin_panel_manage_user {
+    margin-bottom: 150px; } }
+@media (max-width: 333px) {
+  .admin_panel_manage_tariff {
+    width: 280px; }
+
+  .admin_panel_manage_user {
+    width: 280px; } }

@@ -1,0 +1,125 @@
+@import url('/mainstyles.css');
+$blue_color : #005FFF;
+.content_6{
+    padding-top: 87px;
+    flex:1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_user{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_user_body{
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    border:2px solid #f2f2f2;
+    box-shadow: 0px 0px 4px #dcdada;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding:20px;
+}
+
+.login_user_image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.login_user_form{
+    display: flex;
+    flex-direction: column;
+
+    .login_user_login{
+        margin-bottom: 20px;
+    }
+
+    input{
+        padding:10px;
+        border-radius: 10px;
+        border:2px solid #f2f2f2;
+        font-size: 16px;
+    }
+}
+
+.login_user_password{
+    margin-bottom: 20px;
+}
+
+.login_user_block_btn{
+    width: 100%;
+}
+.login_user_btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #f2f2f2;
+    font-size: 16px;
+    background-color: $blue_color;
+    font-weight: 600;
+    color:white;
+    transition: 0.3s ease all;
+}
+
+.login_user_btn:hover{
+    background-color: #014fd5;
+    transition: 0.3s ease all;
+}
+
+@media (max-width:440px) {
+    .login_user_body{
+        width: 300px;
+        height: 370px;
+    }
+
+    .login_user_image {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:345px) {
+    .login_user_body{
+        width: 270px;
+    }
+}
+
+
+
+.active{
+    display: block;
+    left: -13px;
+    padding-left: 13px;
+}
+
+
+
+.active_burger{
+    span{
+        display: none;
+    }
+
+    span:nth-child(2){
+        display: block;
+                top: calc(50%);
+                transform: rotate(45deg)
+            }
+            span:last-child{
+                display: block;
+                top: calc(50%);
+                transform: rotate(-45deg)
+            }
+
+}

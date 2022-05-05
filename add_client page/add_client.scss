@@ -1,0 +1,190 @@
+@import url('/mainstyles.css');
+$blue_color :#005fff;
+.content_10{
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 87px;
+}
+
+
+
+
+.register_form_title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+
+
+.register{
+    input{
+        padding:10px;
+        border-radius: 15px;
+        border:2px solid #f2f2f2;
+        font-size: 18px;
+    }
+    .inpw100{
+        width: 100%;
+    }
+}
+
+.main_inputs{
+    margin-bottom: 20px;
+
+    p{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    textarea{
+        resize:none;
+        font-size: 18px;
+        padding:10px;
+        border-radius: 15px;
+        border:2px solid #f2f2f2;
+        font-family: 'Montserrat';
+    }
+}
+
+.price_duration{
+    display: flex;
+}
+
+.price_block{
+    margin-right: 20px;
+}
+
+.user_pass{
+    display: flex;
+
+
+    .username_block{
+        margin-right: 20px;
+    }
+}
+
+.adress_inputs{
+    input{
+        margin-bottom: 15px;
+    }
+}
+
+.regions{
+    padding:10px;
+        border-radius: 15px;
+        border:2px solid #f2f2f2;
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+
+
+
+.create_acc_btn{
+    width: 100%;
+    padding:10px 0;
+    font-size: 20px;
+    background-color: $blue_color;
+    color:white;
+    border:2px solid #f2f2f2;
+    border-radius: 15px;
+}
+
+
+.red_star{
+    color:red;
+}
+
+.email_inp{
+    margin-bottom: 10px;
+}
+
+
+.buttons_for_back_edit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back_to_profile{
+   width: 100px;
+   height: 40px;
+    padding:5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $blue_color;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+    border:2px solid #f2f2f2;
+    font-size: 16px;
+
+}
+
+.edit_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    background-color: $blue_color;
+    border-radius: 5px;
+    border:2px solid #f2f2f2;
+    width: 100px;
+     height: 40px;
+    padding:5px 0;  
+    font-size: 16px;
+}
+
+.flex_for_back_button{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn_block_back{
+    margin-right: 30px;
+}
+
+select{
+        color:#6C757D;
+    
+}
+
+
+.popup_success_apply_title{
+    font-size: 25px;
+}
+
+// @media (max-width:546px) {
+//     .register_form{
+//         margin-top: 30px;
+//     }
+// }
+
+
+
+@media (max-width:670px) {
+    .flex_for_back_button{
+        flex-direction: column;
+    }
+}
+
+@media (max-height:667px) {
+    .flex_for_back_button{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:526px) {
+    .register_form{
+        margin-top: 20px;
+    }
+
+    .register input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

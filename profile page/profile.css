@@ -1,0 +1,606 @@
+@import url("/mainstyles.css");
+.current_tariff_connect_btn {
+  background-color: #005FFF;
+  padding: 14px 48px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  cursor: pointer; }
+
+.content_2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 30px; }
+
+.my_account_bill {
+  border: 4px solid #f2f2f2;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 100px; }
+
+.my_account_bill_top_up_block {
+  margin-left: 20px; }
+
+.my_account_bill_top_up_btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #228a18;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #228a18;
+  border-radius: 15px;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+
+.my_account_bill_top_up_btn:hover {
+  -webkit-box-shadow: 0px 0px 6px black;
+          box-shadow: 0px 0px 6px black;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+
+.profile_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.my_profile {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.current_tariff {
+  padding: 0 15px; }
+
+.my_profle_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.my_profile_form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 10px;
+  border: 4px solid #F2F2F2;
+  height: 100%;
+  padding-bottom: 44px; }
+
+.my_profile_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px; }
+
+.my_profile_avatar {
+  margin-right: 40px; }
+  .my_profile_avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; }
+
+.current_tariff_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.my_profile_edit_btn_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.my_profile_edit_btn {
+  background-color: #005FFF;
+  padding: 14px 48px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  cursor: pointer; }
+
+.my_profile_name_surname {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 10px; }
+
+.my_profile_data {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px; }
+  .my_profile_data ul li {
+    margin-bottom: 10px; }
+
+.status_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px; }
+
+.status_profile_status {
+  border: 4px solid #f2f2f2;
+  background-color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 100%;
+  width: 300px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.status_profile_expire {
+  border: 4px solid #f2f2f2;
+  background-color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 100%;
+  width: 300px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.status_column {
+  padding: 0 15px; }
+
+.tariffs_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px; }
+
+.tariffs_sorting_tools {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .tariffs_sorting_tools > *:not(:last-child) {
+    margin-right: 10px; }
+
+.tariffs_sorting_parameters_btn {
+  border: none;
+  background-color: transparent; }
+  .tariffs_sorting_parameters_btn img {
+    width: 30px;
+    height: 30px; }
+
+.tariffs_sort_by_price select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 5px; }
+  .tariffs_sort_by_price select option {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; }
+
+.tariffs_sort_by_aplphabet select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 5px; }
+  .tariffs_sort_by_aplphabet select option {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; }
+
+.tariffs_sort_by_service select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 5px; }
+  .tariffs_sort_by_service select option {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; }
+
+.tariffs_row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px; }
+
+.tariffs_tariff {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border: 4px solid #F2F2F2;
+  border-radius: 10px;
+  padding: 44px 70px;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+
+.tarifss_tariff_title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #005FFF;
+  margin-bottom: 35px; }
+
+.tariffs_tariff_feauters ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .tariffs_tariff_feauters ul li {
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 1px solid #CBCACA;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    background-image: url("/img/tariffs_images/check.svg");
+    background-repeat: no-repeat;
+    background-position-y: 3px; }
+  .tariffs_tariff_feauters ul > * {
+    margin-bottom: 20px; }
+
+.tariffs_tariff_price {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 30px;
+  border: 2px dashed #dfdddd;
+  padding: 10px;
+  border-radius: 10px; }
+
+.tariffs_tariff_connect_btn {
+  background-color: #005FFF;
+  padding: 14px 48px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  cursor: pointer; }
+
+.tariffs_tariff_connect_btn:hover {
+  -webkit-box-shadow: 0px 0px 6px black;
+          box-shadow: 0px 0px 6px black;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+
+.tariffs_column {
+  padding: 0 15px;
+  margin-bottom: 30px; }
+
+.tariffs_tariff:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  -webkit-box-shadow: 0px 0px 10px #f2f2f2;
+          box-shadow: 0px 0px 10px #f2f2f2; }
+
+.my_tariff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%; }
+
+.my_tariff_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 25px;
+  text-align: center; }
+
+.my_tariff_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #F2F2F2;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 32px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.my_tariff_current {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #005FFF; }
+
+.my_tariff_status {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px; }
+  .my_tariff_status span {
+    color: #35D327; }
+
+.my_tariff_expire {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px; }
+  .my_tariff_expire span {
+    font-weight: 700; }
+
+.my_tariff_features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.my_tariff_features_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px; }
+
+.my_tariff_features_current {
+  margin-bottom: 70px; }
+  .my_tariff_features_current li {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    background-image: url("img/profile_images/check.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px; }
+  .my_tariff_features_current li:not(:last-child) {
+    margin-bottom: 10px; }
+
+.my_tariff_price {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 20px; }
+  .my_tariff_price span {
+    font-weight: 700; }
+
+.my_tariff_features_btn {
+  border-radius: 6px;
+  background-color: #005FFF;
+  padding: 15px 58px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+
+.my_tariff_features_btn:hover {
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+
+.my_profile_edit_btn:hover {
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease; }
+
+@media (max-width: 440px) {
+  .tariffs_tariff_price {
+    text-align: center;
+    font-size: 20px; }
+
+  .tariffs_tariff {
+    padding: 44px 45px; } }
+@media (max-width: 1020px) {
+  .status_profile {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .status_profile_status {
+    margin-bottom: 20px; } }
+@media (max-width: 973px) {
+  .profile_row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .profile_row > *:not(:last-child) {
+      margin-bottom: 20px; } }
+@media (max-width: 700px) {
+  .my_account_bill {
+    margin-bottom: 20px; }
+
+  .my_profile {
+    width: 400px; }
+
+  .my_profile_avatar {
+    margin-right: 0px;
+    margin-bottom: 20px; }
+    .my_profile_avatar img {
+      width: 150px;
+      height: 150px; }
+
+  .my_profile_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px; }
+
+  .my_tariff_current {
+    font-size: 28px; }
+
+  .my_tariff_status {
+    font-size: 22px; }
+
+  .my_tariff_expire {
+    font-size: 22px; }
+
+  .my_tariff_price {
+    font-size: 22px; }
+
+  .my_profile_data {
+    text-align: center; } }
+@media (max-width: 700px) and (max-width: 640px) {
+  .my_profile {
+    width: 400px; } }
+@media (max-width: 430px) {
+  .my_profile {
+    width: 350px; }
+
+  .my_tariff {
+    width: 350px; }
+
+  .my_profile_name_surname {
+    text-align: center;
+    font-size: 23px; } }
+@media (max-width: 389px) {
+  .my_profile {
+    width: 300px; }
+
+  .my_tariff {
+    width: 300px; } }
+@media (max-width: 332px) {
+  .my_account_bill {
+    width: 280px; }
+
+  .status_profile_status {
+    width: 280px; }
+
+  .status_profile_expire {
+    width: 280px; }
+
+  .my_tariff_current {
+    font-size: 25px; }
+
+  .my_tariff_price {
+    font-size: 20px; }
+
+  .my_profile_data ul li {
+    font-size: 16px; }
+
+  .my_profile_name_surname {
+    font-size: 20px; }
+
+  .my_tariff_features_current {
+    margin-bottom: 50px; } }
+.active {
+  display: block;
+  left: -13px;
+  padding-left: 13px; }
+
+.active_burger span {
+  display: none; }
+.active_burger span:nth-child(2) {
+  display: block;
+  top: calc(50%);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+.active_burger span:last-child {
+  display: block;
+  top: calc(50%);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
